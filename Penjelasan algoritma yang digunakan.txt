@@ -39,4 +39,9 @@ Penjelasan algoritma yang digunakan
 	adalah fungsi yang digunakan untuk menentukan nilai dari nilai fitness. Fungsi evaluasi ini merupakan sekumpulan kriteria-kriteria tertentu dari permasalahan yang ingin diselesaikan.
   m.Generasi 
 	merupakan satuan dari populasi setelah mengalami operasi genetika, berkembang biak, dan menghasilkan keturunan. Pada akhir dari setiap generasi, untuk menjaga agar jumlah kromosom dalam populasi tetap konstan, kromosom-kromosom yang mempunyai nilai fitness yang rendah dan memiliki peringkat di bawah nilai minimal akan dihapus dari populasi.
+	
+	Dalam menerapkan Algoritma Genetika untuk memecahkan masalah optimasi, perlu dilakukan analisa terhadap permasalahan yang akan dicarikan solusinya. Dalam menganalisa permasalahan, ada dua istilah yang muncul:
+A.Hard Constraint: yang merupakan batasan yang ada dalam permasalahan yang akan dicarikan solusi, yang tidak boleh dilanggar sama sekali. Solusi yang akan menjadi bagian dari populasi, adalah solusi yang tidak melanggar Hard Constraint ini.
+B.Soft Constraint: yang merupakan batasan yang ada dalam permasalahan yang akan dicarikan solusi, tetapi dalam pencarian solusi, batasan ini masih bisa dilanggar.
+	Dari kedua istilah tersebut, yang mempengaruhi bagaimana suatu solusi akan dikatakan lebih baik dari solusi yang lain adalah dengan melihat kadar pelanggaran yang dilakukan terhadap Soft Constraint. Makin banyak Soft Constraint yang dilanggar, makin buruk nilai dari solusi tersebut. Nilai dari solusi yang dimaksud di sini sering diistilahkan dengan nama Fitness Function. Fitness Function ini merupakan akumalasi dari nilai penalti yang didapat dari pelanggaran terhadap Soft Constraint yang yang ada.
 
