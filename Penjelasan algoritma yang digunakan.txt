@@ -1,42 +1,42 @@
 Penjelasan algoritma yang digunakan
 1.Pengertian
-	Algoritma Genetika adalah Teknik pencarian yang ada di dalam ilmu       komputer untuk menemukan penyelesaian perkiraan untuk optimisasi dan masalah   pencarian, algotritma ini juga sering juga di artikan sebagai algoritma yang   dikembangkan dari proses pencarian solusi menggunakan pencarian acak.
-  1.Algoritma Genetika ini dapat di gunakan di semua hal seperti bisnis,         teknik maupun keilmuan
-  2.Algoritma ini sangat tepat untuk menyelesaikan suatu masalah optimasi         yang lebih kompleks dan sukar diselesaikan dengan menggunakan metode yang     konvensional.
-  3.Algoritma genetika banyak digunakan untuk penyelesaian masalah dengan         multikriteria
+	Algoritma Genetika adalah Teknik pencarian yang ada di dalam ilmu komputer untuk menemukan penyelesaian perkiraan untuk optimisasi dan masalah pencarian, algotritmini juga sering juga di artikan sebagai algoritma yang   dikembangkan dari proses pencarian solusi menggunakan pencarian acak.
+  1.Algoritma Genetika ini dapat di gunakan di semua hal seperti bisnis, teknik maupun keilmuan
+  2.Algoritma ini sangat tepat untuk menyelesaikan suatu masalah optimasi yang lebih kompleks dan sukar diselesaikan dengan menggunakan metode yang konvensional.
+  3.Algoritma genetika banyak digunakan untuk penyelesaian masalah dengan multikriteria
 
 2.Algoritma Genetika mempunyai metodologi optimasi sederhana sebagai berikut:
   1.Menentukan populasi solusi sejumlah tertentu
   2.Menghitung nilai fitnes function semua solusi yang ada di dalam populasi
   3.Memilih beberapa solusi dengan nilai fitnes function yang paling tinggi
-  4.Melakukan optimasi dengan cara mutasi dan crossover sebanyak yang     diperlukan
-  5.Menentukan solusi terbaik sebagai solusi terhadap permasalahan yang     dioptimasi
+  4.Melakukan optimasi dengan cara mutasi dan crossover sebanyak yang diperlukan
+  5.Menentukan solusi terbaik sebagai solusi terhadap permasalahan yang dioptimasi
 
 3.Beberapa Devinisi penting dalam Algoritma Genetika:
   a.Gen (Genotype) 
-	adalah sebuah nilai yang menyatakan satuan dasar yang membentuk suatu      arti tertentu dalam satu kesatuan gen yang dinamakan kromosom. 
+	adalah sebuah nilai yang menyatakan satuan dasar yang membentuk suatu arti tertentu dalam satu kesatuan gen yang dinamakan kromosom. 
   b.Allele 
-	yaitu nilai dari sebuah gen, dapat berupa bilangan biner,float,         integer, karakter, dan kombinatorial. 
+	yaitu nilai dari sebuah gen, dapat berupa bilangan biner,float, integer, karakter, dan kombinatorial. 
   c.Kromosom 
 	adalah gabungan gen-gen yang membentuk nilai tertentu. 
   d.Individu 
-	merupakan suatu nilai atau keadaan yang menyatakan salah satu solusi     yang mungkin dari permasalahan yang diangkat. 
+	merupakan suatu nilai atau keadaan yang menyatakan salah satu solusi yang mungkin dari permasalahan yang diangkat. 
   e.Populasi 
-	merupakan sekumpulan individu yang akan diproses bersama dalam satu     siklus proses evolusi. Populasi terdiri dari sekumpulan kromosom. 
+	merupakan sekumpulan individu yang akan diproses bersama dalam satu siklus proses evolusi. Populasi terdiri dari sekumpulan kromosom. 
   f.Induk 
 	adalah kromosom yang akan dikenai operasi genetika (crossover). 
   g.Crossover 
-	adalah operasi genetika yang mewakili proses perkembangbiakan antar        individu. 
+	adalah operasi genetika yang mewakili proses perkembangbiakan antar individu. 
   h.Offspring 
-	adalah kromosom yang merupakan hasil dari operasi genetika (crossover)     dikenal keturunan atau sebagai anak.
+	adalah kromosom yang merupakan hasil dari operasi genetika (crossover) dikenal keturunan atau sebagai anak.
   i.Mutasi 
-	merupakan operasi genetika yang mewakili proses mutasi dalam     perjalanan hidup individu. Mutasi berperan menghasilkan perubahan acak         dalam populasi, yang berguna untuk menambah variasi dari kromosomkromosom      dalam sebuah populasi.
+	merupakan operasi genetika yang mewakili proses mutasi dalam perjalanan hidup individu. Mutasi berperan menghasilkan perubahan acak dalam populasi, yang berguna untuk menambah variasi dari kromosomkromosom dalam sebuah populasi.
   j.Proses seleksi 
-	merupakan proses yang mewakili proses seleksi alam (natural selection)     dari Teori Darwin. Proses ini dilakukan untuk menghasilkan keturunan         (offspring). 
+	merupakan proses yang mewakili proses seleksi alam (natural selection) dari Teori Darwin. Proses ini dilakukan untuk menghasilkan keturunan (offspring). 
   k.Nilai fitness 
 	merupakan penilaian yang menentukan bagus tidaknya sebuah kromosom.
   l.Fungsi evaluasi 
-	adalah fungsi yang digunakan untuk menentukan nilai dari nilai     fitness. Fungsi evaluasi ini merupakan sekumpulan kriteria-kriteria     tertentu dari permasalahan yang ingin diselesaikan.
+	adalah fungsi yang digunakan untuk menentukan nilai dari nilai fitness. Fungsi evaluasi ini merupakan sekumpulan kriteria-kriteria tertentu dari permasalahan yang ingin diselesaikan.
   m.Generasi 
-	merupakan satuan dari populasi setelah mengalami operasi genetika,         berkembang biak, dan menghasilkan keturunan. Pada akhir dari setiap         generasi, untuk menjaga agar jumlah kromosom dalam populasi tetap konstan,     kromosom-kromosom yang mempunyai nilai fitness yang rendah dan memiliki     peringkat di bawah nilai minimal akan dihapus dari populasi.
+	merupakan satuan dari populasi setelah mengalami operasi genetika, berkembang biak, dan menghasilkan keturunan. Pada akhir dari setiap generasi, untuk menjaga agar jumlah kromosom dalam populasi tetap konstan, kromosom-kromosom yang mempunyai nilai fitness yang rendah dan memiliki peringkat di bawah nilai minimal akan dihapus dari populasi.
 
