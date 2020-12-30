@@ -1,0 +1,6 @@
+Penjelasan/deskripsi Problem yang akan diselesaikan:
+	Penentuan rute perjalanan merupakan salah satu permasalahan yang sering dihadapi dalam kehidupan sehari - hari. Salah satu contoh yaitu rute manakah yang memiliki biaya paling murah untuk dilalui seorang salesman ketika harus mengunjungi sejumlah daerah. Tiap daerah tersebut harus dikunjungi tepat satu kali kemudian kembali lagi ke tempat semula. Permasalahan tersebut dikenal sebagai Traveling Salesman Problem (TSP) yaitu mencari rute terpendek dengan syarat kendaraan berawal dan berakhir di vertex (tempat)  yang sama dan setiap kota dikunjungi tepat satu kali. Setiap vertex (tempat)  saling berhubungan dan disimbolkan dengan x dan y. Masalah realistis dapat
+dimodelkan sebagai TSP setelah transformasi, adapun beberapa contohnya seperti
+perencanaan jalur, penjadwalan produksi, manajemen darurat.
+	Problem yang akan diselesaikan disini adalah: Bagaimana cara meminimalkan total jarak/biaya perjalanan untuk mengunjungi semua kota tepat satu kali dan kembali ke kota asal
+
