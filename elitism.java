@@ -2,7 +2,7 @@ package cobasiah;
 
 import java.io.File;
 
-public class elitism {
+public class elistism {
     public static void main(String[] args) {
         File file = new File("burma14.tsp");
         Vertex[] arrayVertex = DataReader.read(file);
